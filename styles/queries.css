@@ -1,0 +1,46 @@
+@media (max-width: 56em) {
+  .main-content {
+    padding: 105px 40px;
+  }
+
+  .sidebar {
+    min-width: 270px;
+  }
+
+  .photo {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 34em) {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main {
+    flex-direction: column-reverse;
+  }
+
+  .about-description {
+    width: 100vh;
+  }
+
+  .sidebar {
+    width: auto;
+  }
+
+  .main-content {
+    padding: 70px 15px;
+  }
+
+  .about-description {
+    max-width: 350px;
+  }
+
+  .photo {
+    width: 100%;
+    height: auto;
+  }
+}
